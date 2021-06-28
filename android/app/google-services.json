@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "889474135303",
+    "project_id": "nlw-06-flutter",
+    "storage_bucket": "nlw-06-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889474135303:android:39fc5cc97d57520e9281a2",
+        "android_client_info": {
+          "package_name": "com.example.payflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889474135303-8g6dmb0b0bvlbs5pjjrh0n7spq7jtpg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.payflow",
+            "certificate_hash": "7550db1c336f61141c9b99cbea343498ba2b4a68"
+          }
+        },
+        {
+          "client_id": "889474135303-v39canmgmo9rkr5op9ftmhatf6ead6k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3-CcRcOvIspwr3KUW6fHHYM8ptvWX_QU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889474135303-v39canmgmo9rkr5op9ftmhatf6ead6k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
