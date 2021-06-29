@@ -56,15 +56,18 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(
-                          left: 40,
-                          right: 40,
-                          top: 40,
-                        ),
-                        child: SocialLoginButton(
-                          onTap: controller.googleSignIn,
-                        ),
-                      )
+                          padding: const EdgeInsets.only(
+                            left: 40,
+                            right: 40,
+                            top: 40,
+                          ),
+                          child: SocialLoginButton(
+                              // primeira maneira de importar
+                              // onTap: controller.googleSignIn,
+                              // segunda maneira de importar
+                              onTap: () {
+                            controller.googleSignIn(context);
+                          }))
                     ])),
           ]),
         ));
