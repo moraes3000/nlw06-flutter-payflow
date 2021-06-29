@@ -62,7 +62,7 @@ class _LoginPageState extends State<LoginPage> {
                             GoogleSignIn _googleSignIn = GoogleSignIn(
                               scopes: [
                                 'email',
-                                'https://www.googleapis.com/auth/contacts.readonly',
+                                // 'https://www.googleapis.com/auth/contacts.readonly',
                               ],
                             );
                             try {
